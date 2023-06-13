@@ -1,0 +1,18 @@
+{
+    "name": "gra1/b2b",
+    "description": "B2B modules for MM",
+    "version": "v1.0.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.4.0||~8.1.0",
+        "ext-ctype": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/NonComposerComponentRegistration.php"
+        ],
+        "psr-4": {
+            "B2b\\": "src/"
+        }
+    }
+}

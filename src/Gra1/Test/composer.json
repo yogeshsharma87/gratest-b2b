@@ -1,0 +1,20 @@
+{
+  "name": "gra1/module-test",
+  "version": "1.0.0",
+  "description": "Test GRA",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gra1\\Test\\": ""
+    }
+  }
+}
