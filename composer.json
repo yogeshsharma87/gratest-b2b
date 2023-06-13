@@ -2,7 +2,7 @@
     "name": "gra1/b2b",
     "description": "B2B modules for MM",
     "version": "v1.0.0",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": "~7.4.0||~8.1.0",
         "ext-ctype": "*"
